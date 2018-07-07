@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="Label" id="0" width="1" textAlignment="left">
+                            <variation key="device=watch42mm" textAlignment="left"/>
+                        </label>
+                        <group width="1" alignment="left" id="1">
+                            <items>
+                                <button alignment="left" title="1" id="2" height="30" width="32">
+                                    <connections>
+                                        <action selector="BtnOne_Activated" destination="AgC-eL-Hgc" id="34"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="3" height="30" title="2">
+                                    <connections>
+                                        <action selector="BtnTwo_Activated" destination="AgC-eL-Hgc" id="35"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="4" height="30" title="3">
+                                    <connections>
+                                        <action selector="BtnThree_Activated" destination="AgC-eL-Hgc" id="36"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="5" height="30" title="/">
+                                    <variation key="device=watch42mm" width="30" height="30"/>
+                                    <connections>
+                                        <action selector="BtnDivide_Activated" destination="AgC-eL-Hgc" id="45"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <constraints>
+                                <constraint id="50" firstItem="2" firstAttribute="leading" secondItem="1" secondAttribute="leading"/>
+                                <constraint id="51" firstItem="3" firstAttribute="leading" secondItem="2" secondAttribute="centerX" constant="17"/>
+                                <constraint id="52" firstItem="4" firstAttribute="leading" secondItem="3" secondAttribute="centerX" constant="17"/>
+                                <constraint id="53" firstItem="5" firstAttribute="leading" secondItem="4" secondAttribute="centerX" constant="17"/>
+                            </constraints>
+                        </group>
+                        <group width="1" alignment="left" id="6">
+                            <items>
+                                <button width="32" alignment="left" id="8" height="30" title="4">
+                                    <connections>
+                                        <action selector="BtnFour_Activated" destination="AgC-eL-Hgc" id="37"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="9" height="30" title="5">
+                                    <connections>
+                                        <action selector="BtnFive_Activated" destination="AgC-eL-Hgc" id="38"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="10" height="30" title="6">
+                                    <connections>
+                                        <action selector="BtnSix_Activated" destination="AgC-eL-Hgc" id="39"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="11" height="30" title="X">
+                                    <connections>
+                                        <action selector="BtnMultiply_Activated" destination="AgC-eL-Hgc" id="46"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <constraints>
+                                <constraint id="54" firstItem="8" firstAttribute="leading" secondItem="6" secondAttribute="leading"/>
+                                <constraint id="55" firstItem="9" firstAttribute="leading" secondItem="8" secondAttribute="centerX" constant="17"/>
+                                <constraint id="56" firstItem="10" firstAttribute="leading" secondItem="9" secondAttribute="centerX" constant="17"/>
+                                <constraint id="57" firstItem="11" firstAttribute="leading" secondItem="10" secondAttribute="centerX" constant="17"/>
+                            </constraints>
+                        </group>
+                        <group width="1" alignment="left" id="12">
+                            <items>
+                                <button width="32" alignment="left" id="13" height="30" title="7">
+                                    <connections>
+                                        <action selector="BtnSeven_Activated" destination="AgC-eL-Hgc" id="40"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="14" height="30" title="8">
+                                    <connections>
+                                        <action selector="BtnEight_Activated" destination="AgC-eL-Hgc" id="41"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="15" height="30" title="9">
+                                    <connections>
+                                        <action selector="BtnNine_Activated" destination="AgC-eL-Hgc" id="42"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" title="-" id="16" height="30">
+                                    <connections>
+                                        <action selector="BtnMinus_Activated" destination="AgC-eL-Hgc" id="47"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <constraints>
+                                <constraint id="58" firstItem="14" firstAttribute="leading" secondItem="13" secondAttribute="centerX" constant="17"/>
+                                <constraint id="59" firstItem="15" firstAttribute="leading" secondItem="14" secondAttribute="centerX" constant="17"/>
+                                <constraint id="60" firstItem="16" firstAttribute="leading" secondItem="15" secondAttribute="centerX" constant="17"/>
+                            </constraints>
+                        </group>
+                        <group width="1" alignment="left" id="17">
+                            <items>
+                                <button width="32" alignment="left" id="18" height="30" title=".">
+                                    <connections>
+                                        <action selector="BtnDecimal_Activated" destination="AgC-eL-Hgc" id="44"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="19" height="30" title="0">
+                                    <connections>
+                                        <action selector="BtnZero_Activated" destination="AgC-eL-Hgc" id="43"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="20" height="30" title="=">
+                                    <connections>
+                                        <action selector="BtnEqual_Activated" destination="AgC-eL-Hgc" id="49"/>
+                                    </connections>
+                                </button>
+                                <button width="32" alignment="left" id="21" height="30" title="+">
+                                    <connections>
+                                        <action selector="BtnAdd_Activated" destination="AgC-eL-Hgc" id="48"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <constraints>
+                                <constraint id="61" firstItem="18" firstAttribute="leading" secondItem="17" secondAttribute="leading"/>
+                                <constraint id="62" firstItem="19" firstAttribute="leading" secondItem="18" secondAttribute="centerX" constant="17"/>
+                                <constraint id="63" firstItem="20" firstAttribute="leading" secondItem="19" secondAttribute="centerX" constant="17"/>
+                                <constraint id="64" firstItem="21" firstAttribute="leading" secondItem="20" secondAttribute="centerX" constant="17"/>
+                            </constraints>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="lblCalcDisplay" destination="0" id="name-outlet-0"/>
+                        <outlet property="btnOne" destination="2" id="name-outlet-2"/>
+                        <outlet property="btnTwo" destination="3" id="name-outlet-3"/>
+                        <outlet property="btnThree" destination="4" id="name-outlet-4"/>
+                        <outlet property="btnDivide" destination="5" id="name-outlet-5"/>
+                        <outlet property="btnFour" destination="8" id="name-outlet-8"/>
+                        <outlet property="btnFive" destination="9" id="name-outlet-9"/>
+                        <outlet property="btnSix" destination="10" id="name-outlet-10"/>
+                        <outlet property="btnMultiply" destination="11" id="name-outlet-11"/>
+                        <outlet property="btnSeven" destination="13" id="name-outlet-13"/>
+                        <outlet property="btnEight" destination="14" id="name-outlet-14"/>
+                        <outlet property="btnNine" destination="15" id="name-outlet-15"/>
+                        <outlet property="btnMinus" destination="16" id="name-outlet-16"/>
+                        <outlet property="btnDecimal" destination="18" id="name-outlet-18"/>
+                        <outlet property="btnZero" destination="19" id="name-outlet-19"/>
+                        <outlet property="btnEqual" destination="20" id="name-outlet-20"/>
+                        <outlet property="btnAdd" destination="21" id="name-outlet-21"/>
+                        <outlet property="btnClear" destination="76" id="name-outlet-76"/>
+                    </connections>
+                    <variation key="device=watch38mm"/>
+                    <menu key="menu" id="75">
+                        <items>
+                            <menuItem id="76" title="Clear" icon="trash">
+                                <accessibilityTraits key="accessibilityTraits" button="YES"/>
+                                <connections>
+                                    <action selector="BtnClear_Activated" destination="AgC-eL-Hgc" id="77"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <!--Notification Controller-->
+    </scenes>
+</document>
